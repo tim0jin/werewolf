@@ -457,6 +457,7 @@ game22_roles = {'John': 'werewolf', 'Caroline': 'spellcaster', 'Peter': 'seer',
     'Andrew': 'villager', 'Elvira': 'villager', 'Tim': 'villager',
     'Melissa': 'villager', 'Lazar': 'villager', 'Rachel': 'villager'}
 game22_raw_seq_dead = ('PROTECTED', 'Amanda-l', 'Dave-w', 'Krystal-w', 'John-l',
+<<<<<<< HEAD
     'PROTECTED', 'Linda-l')
 game22_cult_leader = ()
 game22_treated_who = ['PROTECTED', 'L', 'ww', 'ww', 'L', 'PROTECTED', 'L']
@@ -464,6 +465,15 @@ game22_treated_seq_dead = ['PROTECTED', 'Amanda', 'Dave', 'Krystal', 'John',
     'PROTECTED', 'Linda']
 game22_day_time_seq = ['night, 1', 'day, 1', 'night, 2', 'night, 2', 'day, 2',
     'night, 3', 'day, 3']
+=======
+    'PROTECTED', 'Linda-w')
+game22_cult_leader = ()
+game22_treated_who = ['PROTECTED', 'L', 'ww', 'ww', 'L', 'PROTECTED', 'ww']
+game22_treated_seq_dead = ['PROTECTED', 'Amanda', 'Dave', 'Krystal', 'John',
+    'PROTECTED', 'Linda']
+game22_day_time_seq = ['night, 1', 'day, 1', 'night, 2', 'night, 2', 'day, 2',
+    'night, 3', 'night, 3']
+>>>>>>> 0a5711237cf660112059efab019e385ca1211a6c
 game22_items = (game22_date, game22_number, game22_victory, game22_roles,
     game22_raw_seq_dead, game22_cult_leader, game22_treated_who,
     game22_treated_seq_dead, game22_day_time_seq)
@@ -1466,6 +1476,7 @@ Jul_16_session = (game55_items, game56_items, game57_items, game58_items,
     game59_items, game60_items, game61_items, game62_items)
 Jul_23_session = (game63_items, game64_items, game65_items, game66_items,
     game67_items, game68_items)
+<<<<<<< HEAD
 
 dates_list = (game1_date, game2_date, game3_date, game4_date, game5_date,
     game6_date, game7_date, game8_date, game9_date, game10_date, game11_date,
@@ -1598,3 +1609,5 @@ items_list = (game1_items, game2_items, game3_items, game4_items, game5_items,
     game58_items, game59_items, game60_items, game61_items, game62_items,
     game63_items, game64_items, game65_items, game66_items, game67_items,
     game68_items)
+=======
+>>>>>>> 0a5711237cf660112059efab019e385ca1211a6c
